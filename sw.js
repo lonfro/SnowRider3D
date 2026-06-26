@@ -21,30 +21,25 @@ const ASSET_PATHS = [
   '/sitemap.xml',
 
   // Build (Unity)
-  '/Build/SlopePlusWeb.asm.code.unityweb',
-  '/Build/SlopePlusWeb.asm.framework.unityweb',
-  '/Build/SlopePlusWeb.asm.memory.unityweb',
-  '/Build/SlopePlusWeb.data.unityweb',
-  '/Build/SlopePlusWeb.json',
-  '/Build/SlopePlusWeb.wasm.code.unityweb',
-  '/Build/SlopePlusWeb.wasm.framework.unityweb',
+  '/Build/SnowRider3D-gd-1.data.unityweb',
+  '/Build/SnowRider3D-gd-1.json',
+  '/Build/SnowRider3D-gd-1.wasm.framework.unityweb',
+  '/Build/SnowRider3D-gd-1.wasm.code.unityweb',
   '/Build/UnityLoader.js',
 
   // Patches / scripts
   '/Patches/mobile.js',
   '/Patches/settings.js',
+  '/Patches/import.js',
+  '/Patches/i18n.js',
   '/Patches/freezegame.js',
 
   // TemplateData assets
   '/TemplateData/style.css',
   '/TemplateData/UnityProgress.js',
   '/TemplateData/favicon.ico',
-  '/TemplateData/fullscreen.png',
-  '/TemplateData/progressEmpty.Dark.png',
-  '/TemplateData/progressFull.Dark.png',
-  '/TemplateData/progressLogo.Dark.png',
-  '/TemplateData/webgl-logo.png',
-  '/TemplateData/download.svg',
+  '/TemplateData/logo.png',
+  '/TemplateData/gears.gif',
 
   // Home (secondary page + assets + fonts)
   '/home/index.html',
@@ -63,7 +58,6 @@ const ASSET_PATHS = [
   '/home/regular.ttf',
 
   // i18n bundles and loader
-  '/Patches/i18n.js',
   '/i18n/en.json',
   '/i18n/zh-CN.json',
   '/i18n/ja.json',
